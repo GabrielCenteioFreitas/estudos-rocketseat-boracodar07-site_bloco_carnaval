@@ -1,4 +1,4 @@
-<h1 align="center">BoraCodar - Desafio 06</h1>
+<h1 align="center">BoraCodar - Desafio 07</h1>
 
 <p align="center">
   <a alt="Tailwind">
