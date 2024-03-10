@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .active {
+    @apply bg-carnaval-purple text-white
+    hover:bg-carnaval-purple/90
+    transition-colors duration-200 ease-linear;
+  }
+  .inactive {
+    @apply text-carnaval-purple
+    hover:text-carnaval-purple/90
+    transition-colors duration-200 ease-linear;
+  }
+
+}
