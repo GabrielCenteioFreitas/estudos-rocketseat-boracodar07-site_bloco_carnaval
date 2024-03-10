@@ -38,7 +38,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Tailwind
+- Tailwind CSS
 - HTML
 - CSS
 - Figma
