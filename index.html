@@ -34,10 +34,13 @@
             </label>
             <select id="cidade" class="bg-carnaval-white-1 w-full text-carnaval-grey outline-none appearance-none cursor-pointer
             bg-no-repeat bg-right bg-custom-arrow" onchange="changeSelectColor()">
-              <option disabled selected>Selecione uma cidade</option>
-              <option class="text-carnaval-black" value="cidade1">Cidade 1</option>
-              <option class="text-carnaval-black" value="cidade2">Cidade 2</option>
-              <option class="text-carnaval-black" value="cidade3">Cidade 3</option>
+              <option disabled selected value="0">Selecione uma cidade</option>
+              <option class="text-carnaval-black" value="curitiba">Curitiba</option>
+              <option class="text-carnaval-black" value="florianopolis">Florianópolis</option>
+              <option class="text-carnaval-black" value="porto-alegre">Porto Alegre</option>
+              <option class="text-carnaval-black" value="rio-de-janeiro">Rio de Janeiro</option>
+              <option class="text-carnaval-black" value="salvador">Salvador</option>
+              <option class="text-carnaval-black" value="sao-paulo">São Paulo</option>
             </select>
           </div>
           <input class="w-4/5 md:w-3/5 lg:w-1/5 m-auto px-8 py-3 rounded-md
@@ -60,127 +63,127 @@
           </div>
         </div>
         <div class="relative z-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <article class="rounded-xl bg-white shadow-carnaval hover:scale-[103%] transition-all duration-100 ease-linear">
-            <div class="h-36 relative shadow-carnaval rounded-t-xl overflow-hidden">
-              <div class="h-full w-full bg-carnaval-purple/20 absolute z-2 pointer-events-none"></div>
-              <img class="h-full w-full object-cover" src="https://s2-g1.glbimg.com/2RIqaMzoZ0dtfCjI0RSiwXg8dss=/0x0:734x474/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/a/D/Bg4Xq7RyejmFUGayKBRA/chora10.jpg">
+          <article class="card">
+            <div class="card-img-container">
+              <div class="card-img-filter"></div>
+              <img class="card-img" src="https://s2-g1.glbimg.com/2RIqaMzoZ0dtfCjI0RSiwXg8dss=/0x0:734x474/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/a/D/Bg4Xq7RyejmFUGayKBRA/chora10.jpg">
             </div>
-            <div class="p-4 grid gap-4 text-base font-normal text-black/75">
-              <h3 class="text-xl font-bold text-carnaval-black">O Python do vovô não sobe mais</h3>
+            <div class="card-text-container">
+              <h3 class="card-text-title">O Python do vovô não sobe mais</h3>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-              <div class="flex gap-2">
+              <div class="card-text-location-container">
                 <img src="./assets/location.svg" alt="ícone de localização">
                 <p>São Paulo - SP</p>
               </div>
             </div>
           </article>
-          <article class="rounded-xl bg-white shadow-carnaval hover:scale-[103%] transition-all duration-100 ease-linear">
-            <div class="h-36 relative shadow-carnaval rounded-t-xl overflow-hidden">
-              <div class="h-full w-full bg-carnaval-purple/20 absolute z-2"></div>
-              <img class="h-full w-full object-cover" src="https://www.vilavelha.es.gov.br/midia/imagens/2023/01/51790_25012023_900x500.jpg">
+          <article class="card">
+            <div class="card-img-container">
+              <div class="card-img-filter"></div>
+              <img class="card-img" src="https://www.vilavelha.es.gov.br/midia/imagens/2023/01/51790_25012023_900x500.jpg">
             </div>
-            <div class="p-4 grid gap-4 text-base font-normal text-black/75">
-              <h3 class="text-xl font-bold text-carnaval-black">Todo mundo null</h3>
+            <div class="card-text-container">
+              <h3 class="card-text-title">Todo mundo null</h3>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-              <div class="flex gap-2">
+              <div class="card-text-location-container">
                 <img src="./assets/location.svg" alt="ícone de localização">
                 <p>Florianópolis - SC</p>
               </div>
             </div>
           </article>
-          <article class="rounded-xl bg-white shadow-carnaval hover:scale-[103%] transition-all duration-100 ease-linear">
-            <div class="h-36 relative shadow-carnaval rounded-t-xl overflow-hidden">
-              <div class="h-full w-full bg-carnaval-purple/20 absolute z-2"></div>
-              <img class="h-full w-full object-cover" src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/AGE20230212137.jpg?w=1220&h=674&crop=1">
+          <article class="card">
+            <div class="card-img-container">
+              <div class="card-img-filter"></div>
+              <img class="card-img" src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/AGE20230212137.jpg?w=1220&h=674&crop=1">
             </div>
-            <div class="p-4 grid gap-4 text-base font-normal text-black/75">
-              <h3 class="text-xl font-bold text-carnaval-black">Hoje dou exception</h3>
+            <div class="card-text-container">
+              <h3 class="card-text-title">Hoje dou exception</h3>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-              <div class="flex gap-2">
+              <div class="card-text-location-container">
                 <img src="./assets/location.svg" alt="ícone de localização">
                 <p>Curitiba - PR</p>
               </div>
             </div>
           </article>
-          <article class="rounded-xl bg-white shadow-carnaval hover:scale-[103%] transition-all duration-100 ease-linear">
-            <div class="h-36 relative shadow-carnaval rounded-t-xl overflow-hidden">
-              <div class="h-full w-full bg-carnaval-purple/20 absolute z-2"></div>
-              <img class="h-full w-full object-cover" src="https://spbancarios.com.br/sites/default/files/styles/interna_grande/public/destaques/carnaval_sp.jpg?itok=-hjCfumi">
+          <article class="card">
+            <div class="card-img-container">
+              <div class="card-img-filter"></div>
+              <img class="card-img" src="https://spbancarios.com.br/sites/default/files/styles/interna_grande/public/destaques/carnaval_sp.jpg?itok=-hjCfumi">
             </div>
-            <div class="p-4 grid gap-4 text-base font-normal text-black/75">
-              <h3 class="text-xl font-bold text-carnaval-black">Manda Node</h3>
+            <div class="card-text-container">
+              <h3 class="card-text-title">Manda Node</h3>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-              <div class="flex gap-2">
+              <div class="card-text-location-container">
                 <img src="./assets/location.svg" alt="ícone de localização">
                 <p>Salvador - BA</p>
               </div>
             </div>
           </article>
-          <article class="rounded-xl bg-white shadow-carnaval hover:scale-[103%] transition-all duration-100 ease-linear">
-            <div class="h-36 relative shadow-carnaval rounded-t-xl overflow-hidden">
-              <div class="h-full w-full bg-carnaval-purple/20 absolute z-2"></div>
-              <img class="h-full w-full object-cover" src="https://thumbs.dreamstime.com/b/floats-fancy-dress-costumes-gauteng-carnival-preto-pretoria-south-africa-119680982.jpg">
+          <article class="card">
+            <div class="card-img-container">
+              <div class="card-img-filter"></div>
+              <img class="card-img" src="https://thumbs.dreamstime.com/b/floats-fancy-dress-costumes-gauteng-carnival-preto-pretoria-south-africa-119680982.jpg">
             </div>
-            <div class="p-4 grid gap-4 text-base font-normal text-black/75">
-              <h3 class="text-xl font-bold text-carnaval-black">Só no back-end</h3>
+            <div class="card-text-container">
+              <h3 class="card-text-title">Só no back-end</h3>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-              <div class="flex gap-2">
+              <div class="card-text-location-container">
                 <img src="./assets/location.svg" alt="ícone de localização">
                 <p>São Paulo - SP</p>
               </div>
             </div>
           </article>
-          <article class="rounded-xl bg-white shadow-carnaval hover:scale-[103%] transition-all duration-100 ease-linear">
-            <div class="h-36 relative shadow-carnaval rounded-t-xl overflow-hidden">
-              <div class="h-full w-full bg-carnaval-purple/20 absolute z-2"></div>
-              <img class="h-full w-full object-cover" src="https://f.i.uol.com.br/fotografia/2022/02/22/1645564329621551a9cd0a5_1645564329_3x2_md.jpg">
+          <article class="card">
+            <div class="card-img-container">
+              <div class="card-img-filter"></div>
+              <img class="card-img" src="https://f.i.uol.com.br/fotografia/2022/02/22/1645564329621551a9cd0a5_1645564329_3x2_md.jpg">
             </div>
-            <div class="p-4 grid gap-4 text-base font-normal text-black/75">
-              <h3 class="text-xl font-bold text-carnaval-black">Esse anel não é de Ruby</h3>
+            <div class="card-text-container">
+              <h3 class="card-text-title">Esse anel não é de Ruby</h3>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-              <div class="flex gap-2">
+              <div class="card-text-location-container">
                 <img src="./assets/location.svg" alt="ícone de localização">
                 <p>São Paulo - SP</p>
               </div>
             </div>
           </article>
-          <article class="rounded-xl bg-white shadow-carnaval hover:scale-[103%] transition-all duration-100 ease-linear">
-            <div class="h-36 relative shadow-carnaval rounded-t-xl overflow-hidden">
-              <div class="h-full w-full bg-carnaval-purple/20 absolute z-2"></div>
-              <img class="h-full w-full object-cover" src="https://media.istockphoto.com/id/938063970/pt/foto/floats-and-fancy-dress-costumes-at-the-gauteng-carnival-in-the-streets-of-pretoria.jpg?s=612x612&w=0&k=20&c=HyxzPAsRREr9eGT7lLxUhVhENyuL2UnYUadIBQ_7qhc=">
+          <article class="card">
+            <div class="card-img-container">
+              <div class="card-img-filter"></div>
+              <img class="card-img" src="https://media.istockphoto.com/id/938063970/pt/foto/floats-and-fancy-dress-costumes-at-the-gauteng-carnival-in-the-streets-of-pretoria.jpg?s=612x612&w=0&k=20&c=HyxzPAsRREr9eGT7lLxUhVhENyuL2UnYUadIBQ_7qhc=">
             </div>
-            <div class="p-4 grid gap-4 text-base font-normal text-black/75">
-              <h3 class="text-xl font-bold text-carnaval-black">Pimenta no C# dos outros é refresco</h3>
+            <div class="card-text-container">
+              <h3 class="card-text-title">Pimenta no C# dos outros é refresco</h3>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-              <div class="flex gap-2">
+              <div class="card-text-location-container">
                 <img src="./assets/location.svg" alt="ícone de localização">
                 <p>Rio de Janeiro - RJ</p>
               </div>
             </div>
           </article>
-          <article class="rounded-xl bg-white shadow-carnaval hover:scale-[103%] transition-all duration-100 ease-linear">
-            <div class="h-36 relative shadow-carnaval rounded-t-xl overflow-hidden">
-              <div class="h-full w-full bg-carnaval-purple/20 absolute z-2"></div>
-              <img class="h-full w-full object-cover" src="https://midias.agazeta.com.br/2020/02/21/bloco-de-carnaval-193003.jpg">
+          <article class="card">
+            <div class="card-img-container">
+              <div class="card-img-filter"></div>
+              <img class="card-img" src="https://midias.agazeta.com.br/2020/02/21/bloco-de-carnaval-193003.jpg">
             </div>
-            <div class="p-4 grid gap-4 text-base font-normal text-black/75">
-              <h3 class="text-xl font-bold text-carnaval-black">EnCACHE aqui</h3>
+            <div class="card-text-container">
+              <h3 class="card-text-title">EnCACHE aqui</h3>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-              <div class="flex gap-2">
+              <div class="card-text-location-container">
                 <img src="./assets/location.svg" alt="ícone de localização">
                 <p>Porto Alegre - RS</p>
               </div>
             </div>
           </article>
-          <article class="rounded-xl bg-white shadow-carnaval hover:scale-[103%] transition-all duration-100 ease-linear">
-            <div class="h-36 relative shadow-carnaval rounded-t-xl overflow-hidden">
-              <div class="h-full w-full bg-carnaval-purple/20 absolute z-2"></div>
-              <img class="h-full w-full object-cover" src="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3330184:1675185864/Bloco%20infantil%202%20-%20Helene%20Santos.jpg?f=16x9&$p$f=33ad654">
+          <article class="card">
+            <div class="card-img-container">
+              <div class="card-img-filter"></div>
+              <img class="card-img" src="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3330184:1675185864/Bloco%20infantil%202%20-%20Helene%20Santos.jpg?f=16x9&$p$f=33ad654">
             </div>
-            <div class="p-4 grid gap-4 text-base font-normal text-black/75">
-              <h3 class="text-xl font-bold text-carnaval-black">Não valho nada mas JAVA li</h3>
+            <div class="card-text-container">
+              <h3 class="card-text-title">Não valho nada mas JAVA li</h3>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-              <div class="flex gap-2">
+              <div class="card-text-location-container">
                 <img src="./assets/location.svg" alt="ícone de localização">
                 <p>São Paulo - SP</p>
               </div>
