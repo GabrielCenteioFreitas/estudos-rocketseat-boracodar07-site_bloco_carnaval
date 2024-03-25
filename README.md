@@ -1,4 +1,4 @@
-<h1 align="center">BoraCodar - Desafio 07</h1>
+<h1 align="center">BoraCodar - Desafio 07 - Site de Blocos de Carnaval</h1>
 
 <p align="center">
   <a alt="Tailwind">
@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=for-the-badge" />
   </a>
   <a alt="Figma">
-     <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+     <img src="https://img.shields.io/badge/Figma-F24E1E?&logo=figma&logoColor=white&style=for-the-badge" />
   </a>
 </p>
 
@@ -23,12 +23,12 @@
 
 <br>
 <p align="center">
-  <img alt="Imagem do projeto." src=".github/preview07.jpg" width="800px">
+  <img alt="Imagem do projeto." src=".github/preview07.jpg" width="80%">
 </p>
 
 <h4 align="center">
   
-  [GitHub Pages](https://gabrielcenteiofreitas.github.io/estudos-rocketseat-boracodar07-site_bloco_carnaval/)
+  [Ver projeto](https://gabrielcenteiofreitas.github.io/estudos-rocketseat-boracodar07-site_bloco_carnaval/)
 </h4>
 
 <br>
@@ -47,6 +47,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Projeto de um Site de Blocos de Carnaval desenvolvido a partir do Desafio 07 do evento "BoraCodar" da Rocketseat com o objetivo de treinar e aprimorar habilidades.
+
+Caso queira ver todos os desafios do evento clique [aqui](https://github.com/GabrielCenteioFreitas/estudos-rocketseat-boracodar).
 
 ## 🔖 Layout
 
